@@ -24,7 +24,7 @@ const Chat = ({ location }) => {
     const [users, setUsers] = useState('');
     const [messages, setMessages] = useState([]);
     const [message, setMessage] = useState('');
-    const ENDPOINT = 'localhost:5000';
+    const ENDPOINT = 'https://chat--application1.herokuapp.com/';
 
     useEffect(() => {
         //the const had the name data, we distructure the data into what we have which are name and room 
