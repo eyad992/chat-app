@@ -13,7 +13,7 @@ const Join = () => {
     return (
         <div className="joinOuterContainer">
           <div className="joinInnerContainer">
-            <h1 className="heading">Join</h1>
+            <h1 className="heading">JOIN</h1>
 
             {/* when typing event will be triggerd to change values */}
             <div><input placeholder="Name" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} /> </div>
